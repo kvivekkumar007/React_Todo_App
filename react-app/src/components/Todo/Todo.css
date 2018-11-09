@@ -1,0 +1,30 @@
+.list{
+    display: block;
+    width: 50%;
+    margin: 5px auto;
+    text-align: left;
+    padding: 10px 15px;
+    border: 1px solid;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.list:hover  #close{
+    display: inline;
+}
+
+#close{
+    font-size: 18px;
+    position: absolute;
+    display: none;
+    right: 176px;
+}
+
+.label{
+    display: block;
+    width: 54%;
+    margin: 5px auto;
+    text-align: left;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
